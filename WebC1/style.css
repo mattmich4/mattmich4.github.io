@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+.wrapper{
+  background: url(HomeImg.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar{
+  height: 100px;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+
+}
+.logo{
+  float: left;
+  width: 160px;
+  height: auto;
+
+}
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px 13px;
+  font-family: 'Roboto', sans-serif;
+  transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: orange;
+    border-radius: 2px;
+}
